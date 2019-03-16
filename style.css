@@ -1,0 +1,285 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    transition: 750ms ease;
+    background: transparent !important;
+}
+
+.navbar-toggler-icon:active + .navbar{
+    background-color: #F8F9FA;
+}
+
+.nav-item {
+    padding: 16px;
+}
+
+.fa-bars {
+    font-size: 35px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    transition: 1s ease;
+}
+
+.dropdown>.dropdown-menu>.dropdown-item:hover {
+    color: black;
+}
+
+.navbar.scrolled {
+    box-shadow: 0px 10px 25px -9px rgba(122,122,111,1);
+    background-color: #FBCF14 !important; /* #EAACBB */    
+    /* background-color: rgb(204, 126, 36) !important; */
+
+}
+
+.navbar .navbar-nav li a{
+    color: white;
+}
+
+.navbar-brand {
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+}
+
+.carousel-item {
+    /* width: 100%; */
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover; 
+}
+
+.carousel-caption{
+    margin-bottom: 250px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;    
+}
+
+.carousel-caption p {
+    width: 75%;
+    margin: auto;
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.image1 {
+    margin-left: -12%;
+    margin-right: 5%;
+}
+
+.welcome-text {
+    padding: 10%;
+    margin-top: 10%;
+}
+
+.welcome-text h6 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    letter-spacing: 1px;
+    color: #FBCF14;
+}
+
+.welcome-text button {
+    margin-top: 4%;
+    font-weight: bold;
+    background-color: #ffe260;
+    padding: 17px 45px;
+}
+
+.welcome-text button:hover {
+    background-color: #fff3be;    
+}
+.video {
+    padding: 5%;
+}
+
+.box-3 {
+    background-color: #F8F9FA;
+    padding: 8%;
+}
+
+.card {
+    margin-bottom: 10%;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 0.3s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.1);
+}
+
+.pricing-table {
+    padding: 4%;
+}
+
+.box-3 h1 {
+    margin-bottom: 5%; 
+}
+
+.pricing-table .card .card-title {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.price-1 {
+    background-color: rgb(241, 240, 237);
+}
+
+.price-1 ul li{
+    background-color: rgb(241, 240, 237);
+}
+
+.pricing-table .card .card-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pricing-table .list-group-item {
+    border: none;
+}
+
+.pricing-table h2 {
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+
+.pricing-table button {
+    background-color: #FBCF14;
+    border: none;
+    padding: 12px 25px;
+}
+
+.features {
+    padding: 5%;
+}
+
+.features i{
+    color: #ffea8a;
+    font-size: 70px;
+    margin-bottom: 7%;
+}
+
+.features h3 {
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+.gallery-block{
+    margin-top: 5%;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  
+.gallery-block .heading{
+      margin-bottom: 50px;
+      text-align: center;
+  }
+  
+.gallery-block .heading h2{
+      font-weight: bold;
+      font-size: 2rem;
+      text-transform: uppercase;
+  }
+  
+.gallery-block.compact-gallery .item{
+    overflow: hidden;
+    margin-bottom: 0;
+  }
+  
+.gallery-block.compact-gallery .item .image{
+    transition: 0.7s ease;
+  }
+  
+.gallery-block.compact-gallery .item .info{
+      position: relative;
+      display: inline-block;
+  }
+  
+.gallery-block .zoom-on-hover:hover .image {
+    opacity: 0.7;
+  }
+
+  footer {
+      background-color: #333333;
+      padding: 5%;
+  }
+
+  .footer-info h2 {
+      margin-bottom: 15px;
+  }
+
+  .footer-info h2 {
+    margin-bottom: 15px;
+}
+
+  footer button {
+      border: none;
+      background-color: #ffe260;
+      padding: 14px 30px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+  footer h2 {
+      color: white;
+  }
+
+  footer p{
+      color: #7E7E7E;
+  }
+
+  footer ul li {
+      margin-bottom: 10px;
+  }
+
+footer ul li a {
+    text-decoration: none;
+    color: #7E7E7E;
+    letter-spacing: 0.7px;
+    font-size: 16px;
+  }
+
+  footer ul li a:hover {
+      color: white;
+      text-decoration: none;
+    }
+
+  footer i {
+      color: #7E7E7E;
+      padding: 10px;
+      font-size: 20px;
+  }
+
+  footer i:hover {
+      color: white;
+  }
+
+  .copyrights {
+      margin-top: 50px;
+  }
+
+  .copyrights i {
+      color: palevioletred;
+  }
